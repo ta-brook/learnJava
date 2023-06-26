@@ -5,3 +5,6 @@
 .project
 .settings/
 bin
+Dataset
+*.zip
+*.txt
