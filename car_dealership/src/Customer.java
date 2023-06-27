@@ -4,6 +4,13 @@ public class Customer {
     private String address;
     private double cashOnHand;
 
+    public Customer(String name, String address, double cashOnHand){
+        super();
+        this.name = name;
+        this.address = address;
+        this.cashOnHand = cashOnHand;
+    }
+
     public String getName() {
         return name;
     }
@@ -31,7 +38,6 @@ public class Customer {
     }
 
     public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance){
-
-
-    })
+        emp.handleCustomer(this, finance, vehicle);
+    }
 }
