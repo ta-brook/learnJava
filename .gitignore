@@ -9,3 +9,5 @@ Dataset
 *.zip
 *.txt
 *.csv
+
+*.class
